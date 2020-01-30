@@ -1,0 +1,66 @@
+body {
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+      width: 55%; 
+    margin: auto;
+    background-image: url(https://hyperallergic.com/wp-content/uploads/2017/10/1400Po-Kim-Abstract-124-1961-62-oil-on-paper-13-x-10.25-in.-The-Sylvia-Wald-_-Po-Kim-Foundation-New-York-copy-720x920.png); 
+    font-family: monospace;
+    
+    ;
+  }
+  
+  a:link {
+    color: gray;
+  }
+  
+  a:visited {
+    color: gray;
+  }
+  
+  
+  a:hover {
+    color: rgb(100, 55, 55);
+  }
+  
+  a:active {
+    color: teal;
+  }
+  
+  #navigation {
+    
+  }
+  
+  
+  
+  #contents {
+      float: right;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 15;
+    padding: 0;
+    overflow: hidden;
+    background-color:beige;
+    font-family:monospace;
+     
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+  background-color: #fff;
+  text-decoration: none;
+  }
