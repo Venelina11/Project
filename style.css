@@ -1,66 +1,148 @@
+ /*main page*/
 body {
     font-size: 120%;
-    color: rgb(0, 0, 0);
-      width: 55%; 
+    color:black;
+    width: 55%; 
+    padding: 55px;
+    border:2px solid;
+    border-color: black;
     margin: auto;
-    background-image: url(https://hyperallergic.com/wp-content/uploads/2017/10/1400Po-Kim-Abstract-124-1961-62-oil-on-paper-13-x-10.25-in.-The-Sylvia-Wald-_-Po-Kim-Foundation-New-York-copy-720x920.png); 
+    background-image: url(https://hyperallergic.com/wp-content/uploads/2017/10/1400Po-Kim-Abstract-124-1961-62-oil-on-paper-13-x-10.25-in.-The-Sylvia-Wald-_-Po-Kim-Foundation-New-York-copy-720x920.png);
     font-family: monospace;
-    
-    ;
-  }
+    list-style: none;
+    }
   
   a:link {
     color: gray;
   }
   
   a:visited {
-    color: gray;
+    color: rgb(66, 49, 49);
   }
   
   
   a:hover {
-    color: rgb(100, 55, 55);
+    color: rgb(82, 45, 45);
   }
   
   a:active {
-    color: teal;
+    color: rgb(18, 131, 131);
   }
   
-  #navigation {
+  /*#navigation {
     
   }
-  
+  */
   
   
   #contents {
       float: right;
   }
   
+  .bla{
+    background-color: rgba(167, 130, 130, 0.527); 
+  }
   ul {
     list-style-type: none;
     margin: 15;
     padding: 0;
     overflow: hidden;
-    background-color:beige;
+    background-color: rgba(167, 130, 130, 0.527);
     font-family:monospace;
-     
    
-  }
+     }
   
   li {
     float: left;
+  
   }
   
   li a {
     display: block;
-    color: beige;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
+    
+  
   }
   
   
   li a:hover {
-  background-color: #fff;
+  background-color:beige;
   text-decoration: none;
+  
   }
+
+  /*beginnings*/
+.part1{
+      font-size: 120%;
+      color: black;
+      width: 100%;
+      padding: 55px;
+      border:2px solid;
+      border-width: rgb(5, 5, 4);
+      margin-right:100%;
+      background-image: url(https://i.pinimg.com/736x/b6/e7/82/b6e78219e47312299299296995cca01f.jpg);
+      font-family: monospace;
+      list-style: none;  
+    }
+    .image-container1{
+      float:left;
+    }
+
+    /*concepts*/
+.part2{
+    font-size: 120%;
+    color: rgb(4, 4, 29);
+    width: 60%; 
+    border-style: ridge;
+    border-color: black;
+    margin: auto;
+    background-image: url(https://uploads1.wikiart.org/images/zdislav-beksinski/untitled-566.jpg!Large.jpg);
+    font-family: monospace;
+    list-style: none;
+  }
+
+  /*developments*/
+  .part3{
+      font-size: 120%;
+      color: black;
+      width: 90%; 
+      padding-left: 0%;
+      border-color: black;
+      margin: auto;
+      font-family: monospace;
+      list-style: none;
+      background-color: rgba(155, 99, 110, 0.24);
+    }
+    /*most importants art*/
+    .part4{
+        font-size: 10%;
+        color: rgb(15, 9, 9);
+        width: 130%;
+        border:2px ridge;
+        border-color: black;
+        display:inline-block;
+        margin: auto;
+        font-family: monospace;
+        list-style: none;
+        background-color:rgba(235, 230, 223, 0.877);
+      }
+
+   
+    /*upload aditional information*/
+    .messagebox {
+    position:fixed;
+    background-color:#000000;
+    color:#ffffff;
+    border:5px solid #ffffff;
+    font-family: monospace;
+    font-size:24px;
+    width:140px;
+    border-radius:5px;
+    z-index:100;
+    padding:10px;
+    }
+    
+   
+     
